@@ -30,4 +30,3 @@ six==1.13.0
 urllib3==1.22
 Werkzeug==0.16.0
 git+https://github.com/myhub/tr.git@master
-pkg-resources
