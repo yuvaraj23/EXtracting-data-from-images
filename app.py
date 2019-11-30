@@ -134,7 +134,7 @@ def image_text(img,find_date,find_date1,find_date2,find_date3,find_date4, is_dat
         x, y, w, h = line[0]
         txt = line[1]
         t=''.join(txt)
-        font = ImageFont.truetype("/home/yuvaraj/Downloads/input/msyh.ttf", max(int(h * 0.6), 14))
+        font = ImageFont.truetype("msyh.ttf", max(int(h * 0.6), 14))
         blank_draw.text(xy=(x, y), text=txt, font=font)
 
     #blank_pil
@@ -143,7 +143,7 @@ def image_text(img,find_date,find_date1,find_date2,find_date3,find_date4, is_dat
     results = run(gray_pil)
     for line in results:
         txt = line[1]+"  "
-        font = ImageFont.truetype("/home/yuvaraj/Downloads/input/msyh.ttf", max(int(h * 0.6), 14))
+        font = ImageFont.truetype("msyh.ttf", max(int(h * 0.6), 14))
         text+= ''. join(txt)
 
     aa=find_date(text)
