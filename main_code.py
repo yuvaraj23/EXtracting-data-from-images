@@ -7,7 +7,7 @@ import numpy
 import re
 from tr import *
 from PIL import Image, ImageDraw, ImageFont
-
+import pandas
 a=[]
 
 #defining functions for different pattern date 
